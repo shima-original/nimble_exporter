@@ -1,7 +1,13 @@
 # Prometheus exporter for Nimble SRT
 
 
-How to use:
+## How to use
+
+To build app in Docker container, execute a command
+
+```
+docker build . --rm -t nimble_exporter:alpha  
+```
  
 ```shell
       - name: srt-exporter
