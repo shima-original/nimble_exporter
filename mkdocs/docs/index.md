@@ -1,3 +1,3 @@
 # What is Nimble Exporter
 
-Nimble Exporter is server application that processes and reports metrics related to Secure Reliable Transport senders. It is designed to interact with a streaming server to retrieve and display statistics about SRT streams.
+Nimble Exporter is a Prometheus exporter to server application that processes and reports metrics related to Secure Reliable Transport (SRT) senders. This application is designed to interact with a streaming server to retrieve and display statistics about SRT streams. When a request from Prometheus, Nimble Exporter contacts the application via http api, gets statistics in json, and gives it to Prometheus in a format it understands.
