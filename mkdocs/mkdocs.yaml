@@ -1,0 +1,25 @@
+site_name: Nimble Exporter
+site_description: Nimble Streamer's API Guide
+repo_url: https://github.com/shima-original/nimble_exporter
+use_directory_urls: false
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition:
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes:
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.arithmatex:
+nav:
+- Table of Contents:
+  - What is Nimble Exporter: index.md 
+
+
