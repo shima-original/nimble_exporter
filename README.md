@@ -58,7 +58,7 @@ base_url and site_url
 These options should be set to the URL that you will see in your browser when viewing the site.
 They ae needed to be set because some urls need to have absolute urls set eg:images
 
-##  Generating the documentation
+### Generating the documentation
 
 To generate the documentation, you need to execute the command
 ```
@@ -70,10 +70,3 @@ However if you just want to preview it in realtime, then you execute the command
 ```
 mkdocs serve
 ```
-
-## Directory contents
-This folder contains the following important direcories and files.
-1. docs/assets: this is where the override custom.css file is located.
-2. docs/html: this is where all the source code samples are stored.
-3. docs/img: this is where all the site images are stored.
-4. overrides: This is where a small template override is located, which removed the copyright notice :) and include bootstrap
