@@ -18,8 +18,47 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.arithmatex:
+site_url: http://127.0.0.1:8000/
 nav:
 - Table of Contents:
   - What is Nimble Exporter: index.md 
+  - ServerStatus: ServerStatus.md
+  - SrtReceivers: SrtReceivers.md
+  
+plugins:
+    - search
+    - include_dir_to_nav:
+        file_pattern: '^(?!index\.(md|html)).*\.md$'
+theme:
+   name: material
+   custom_dir: overrides
+   features:
+     - toc.integrate
+     - search.suggest
+     - search.highlight
+     - content.tabs.link
+     - content.code.annotation
+     - content.code.copy
+   language: en
+   palette:
+      - scheme: default
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+        primary: teal
+        accent: purple
+      - scheme: slate
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+        primary: teal
+        accent: lime
+
+extra:
+  generator: false
+  base_url: http://127.0.0.1:8000
+
+ 
+
 
 
