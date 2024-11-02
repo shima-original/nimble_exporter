@@ -30,6 +30,7 @@ nav:
   - Functions:
     - About: Functions/index.md
     - processRequest: Functions/processRequest.md
+    - getMetrics: Functions/getMetrics.md
   
 plugins:
     - search

@@ -1,5 +1,7 @@
 # processRequest
 
+This function processes incoming HTTP requests to gather and respond with statistics about SRT senders and receivers as well as server status. It retrieves data from specific endpoints and formats the statistics for output.
+
 ```go
 func processRequest(w http.ResponseWriter, r *http.Request) {
     resp, err := getMetrics("/manage/srt_sender_stats")
