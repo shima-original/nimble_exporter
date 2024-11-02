@@ -1,10 +1,10 @@
-# StrReceivers
+# SrtSenders
 
-This struct is used to represent a collection of SRT (Secure Reliable Transport) receivers along with their associated statistics and state information.
+This struct is used to represent a collection of SRT (Secure Reliable Transport) senders along with their associated statistics and state information.
 
-```
-type SrtReceivers struct {
-    SrtReceivers []struct {
+```go
+type SrtSenders struct {
+    SrtSenders []struct {
         ID       string `json:"id"`
         Streamid string `json:"streamid"`
         State    string `json:"state"`
@@ -33,6 +33,6 @@ type SrtReceivers struct {
                 MbpsRate                     float64 `json:"mbpsRate"`
             } `json:"recv"`
         } `json:"stats"`
-    } `json:"SrtReceivers"`
+    } `json:"SrtSenders"`
 }
 ```

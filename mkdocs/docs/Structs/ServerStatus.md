@@ -2,7 +2,7 @@
 
 This struct is designed to represent the status of a server, encapsulating various metrics and information about its performance and configuration.
 
-```
+```go
 type ServerStatus struct {
     Connections int `json:"Connections"`
     OutRate     int `json:"OutRate"`

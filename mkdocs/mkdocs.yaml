@@ -22,8 +22,14 @@ site_url: http://127.0.0.1:8000/
 nav:
 - Table of Contents:
   - What is Nimble Exporter: index.md 
-  - ServerStatus: ServerStatus.md
-  - SrtReceivers: SrtReceivers.md
+  - Structs:
+    - About: Structs/index.md
+    - ServerStatus: Structs/ServerStatus.md
+    - SrtReceivers: Structs/SrtReceivers.md
+    - SrtSenders: Structs/SrtSenders.md
+  - Functions:
+    - About: Functions/index.md
+    - processRequest: Functions/processRequest.md
   
 plugins:
     - search
