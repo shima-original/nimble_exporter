@@ -1,5 +1,6 @@
 # Prometheus exporter for Nimble SRT
 
+Nimble Exporter is a Prometheus exporter to server application that processes and reports metrics related to Secure Reliable Transport (SRT) senders.
 
 ## How to use
 
